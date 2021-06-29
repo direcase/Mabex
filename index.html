@@ -126,7 +126,7 @@
             background-position: 50% 50%;
             background-size: cover;
             position: relative;
-            height: 285px;
+            
         }
         
         .main-project-akan-seri{
@@ -134,7 +134,7 @@
             grid-column: 1/3 ;
             grid-row:1/3;
             background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.096), rgba(0, 0, 0, 0.589)), url("./img/Rectangle\ 52.png");
-            
+        
         }
         .main-project-c{
             width: 100%;
@@ -278,8 +278,9 @@
         .consultation-desc{
             padding-top: 13px;
             padding-bottom: 30px;
-        font-size: 16px;
-        line-height: 26px;}
+            font-size: 16px;
+            line-height: 26px;
+        }
         form input, form button{
             height: 48px;
             border-radius: 6px;
@@ -297,11 +298,13 @@
             color: #FFFFFF;
         }
         .notepad{
+            margin-left: -30px;
             margin-top: -170px;
         }
         .container{
             max-width: 1225px;
             padding: 0 15px;
+            padding-right: 15px;
         }
         .special-offers{
             padding-top: 50px;
@@ -438,6 +441,7 @@
         }
 
         @media screen and (max-width: 767px){
+            
             .main-projects-container{
                 display: flex;
                 flex-direction: column;
@@ -446,7 +450,11 @@
                 display: flex;
                 flex-direction: column-reverse;
             }
+            .main-project-akan-seri,.main-project-the-one, .main-project-royal, .main-project-aqbulak,.main-project-status, .main-project-status,  .main-project-arman{
+                height: 285px;
+            }
             .consultation-cont{
+                overflow: hidden;
                 display: flex;
                 flex-direction: column-reverse;
             }
@@ -472,6 +480,7 @@
                 flex-direction: column;
             }
             .seek-flat-cont{
+                overflow: hidden;
                 display: flex;
                 flex-direction: column-reverse;
             }
@@ -487,6 +496,9 @@
             .main-nav-bar{
                 display: flex;
                 flex-direction: column;
+            }
+            .hand-key{
+                width: ;
             }
         }
         
