@@ -557,6 +557,15 @@ hr{
     grid-template-columns: repeat(5,auto);
     grid-gap: 10px;
 }
+.icon{
+    display: none !important;
+}
+.sticky{
+    opacity: 1;
+    transition: 0.5s;
+
+    pointer-events: auto;
+}
 
 @media screen and (max-width: 1024px){
     
@@ -632,15 +641,7 @@ hr{
     }
     
 }
-.icon{
-    display: none;
-}
-.sticky{
-    opacity: 1;
-    transition: 0.5s;
 
-    pointer-events: auto;
-}
 
 @media screen and (max-width: 740px){
     
