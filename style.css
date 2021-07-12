@@ -14,6 +14,7 @@ header{
     height: 100vh;
 
 }
+
 /*header::before{
     position:  absolute;
     top: 0;
@@ -163,7 +164,7 @@ a{
     grid-template-columns: 1fr 1fr;
 }
 
-.main-content-decs, footer, .footer-header, .footer-desc, .achievements-desc,.consultation-desc,.main-projects-container, .info-about-developer-desc{
+.fix-call-desc,.main-content-decs, footer, .footer-header, .footer-desc, .achievements-desc,.consultation-desc,.main-projects-container, .info-about-developer-desc{
     font-family: 'Exo 2', sans-serif;
 }
 .nav-bar-link{
@@ -611,7 +612,28 @@ hr{
         display: flex;
         flex-direction: column;
     }
+    .nav-top{
+        display: none;
+    }
+    .navigation{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .nav-right-bottom{
+        display: none;
+    }
+    .icon{
+        display: block !important;
+    }
     
+}
+.icon{
+    display: none;
 }
 .sticky{
     opacity: 1;
